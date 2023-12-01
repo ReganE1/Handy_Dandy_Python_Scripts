@@ -151,8 +151,8 @@ def main():
     password=config['DEFAULT']['password']
     print(username)
     print(password)"""
-    username = 'util-val'
-    password = 'Cu5tom3r'
+    username = '----'
+    password = '----'
 
     ctx_auth = AuthenticationContext(siteurl)
     ctx_auth.acquire_token_for_user(username,password)
